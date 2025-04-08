@@ -32,8 +32,8 @@ test_string = "Hello, do you like tea?"
 
 tokens = tokenizer.encode(test_string)
 print(tokens)
-# Output: [token IDs]
+# Output: [1190, 11, 396, 1184, 670, 1026, 16]
 
 decoded = tokenizer.decode(tokens)
 print(decoded)
-# Output: "Hello, do you like tea?"
+# Output: "<|unk|>, do you like tea?"
