@@ -1,4 +1,4 @@
-# 🧠 Simple Tokenizer V1
+# 🧠 Simple Tokenizer
 
 This project implements a **basic word-level tokenizer** in Python using regular expressions and a custom vocabulary. It reads in a text file, builds a vocabulary from the unique words, and provides `encode` and `decode` functionality to convert between strings and token IDs.
 
